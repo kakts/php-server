@@ -19,7 +19,8 @@ $smarty->assign('address', array(
                 'cell' => '123456', 'email' => 'jane@myexample.com', ),
               ));
 
+# Assign integer values
 $smarty->assign('x1', 100);
 $smarty->assign('x2', 200);
 
-$smarty->display('index.tpl');
+$smarty->display('templates/index.tpl');
